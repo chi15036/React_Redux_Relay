@@ -2,6 +2,7 @@
 export const entityInfo = (state = [], action) => {
     switch (action.type) {
         case 'SET_ENTITY_INFO':
+            console.log("HEHHEHE")
             return action.text
         default:
             return state
